@@ -232,6 +232,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\2048\core\GameCore.cs" />
+    <Compile Include="Assets\Scripts\2048\core\Location.cs" />
+    <Compile Include="Assets\Scripts\2048\core\MoveDirection.cs" />
     <Compile Include="Assets\Scripts\2048\GameController.cs" />
     <Compile Include="Assets\Scripts\2048\NumberSprite.cs" />
     <Compile Include="Assets\Scripts\2048\ResourcesManager.cs" />
