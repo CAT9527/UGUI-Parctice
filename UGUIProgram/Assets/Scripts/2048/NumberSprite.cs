@@ -20,4 +20,9 @@ public class NumberSprite : MonoBehaviour {
     }
 
     //移动 合并 生成效果
+    public void CreateEffect()
+    {
+        //由小到大(从零到1)
+        iTween.ScaleFrom(this.gameObject, Vector3.zero, 0.5f);
+    }
 }
